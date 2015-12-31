@@ -1,16 +1,18 @@
-## EXAMPLE 03 List of Cards using jquery json fetch from Node.js/MySQL server side
+# EXAMPLE 03 List of Cards using jquery json fetch from Node.js/MySQL server side
 
 ## We want to display
 
 * This example should show the same result as the prior example 2 
 
-## Opinionated Technologies Selection
+## KISS/Agile and Opinionated Technologies Selection
 
-* I strongly believe in KISS principle, and in a small team going End to End to own a product and execution. With competition and fast moving Agile teams it is more important to get things done reliably and fast.
+I strongly believe in KISS principle, and in a small team going End to End to own a product and execution. With competition and fast moving Agile teams it is more important to get things done reliably and fast.
 
 So my bias is to use good proven technologies, rather than bleeding edge tech churn.
 
 However larger organizations do really well with current Java 7/8 standards. But even here trend is to use standards not propreitary packages.
+
+## Why MySql Simple Queries
 
 * In today's NoSQL world, why do MySQL?
 	- It just works! And you have a ton of LAMP programmers 
@@ -25,13 +27,7 @@ However larger organizations do really well with current Java 7/8 standards. But
 	- By doing queries directly, code is really a lot easier to understand
 	- 
 
-* Responsive vs Ruby-on-Rails ActiveRecord, MVC and Migrations?
-	- Ruby on Rails and similar MVC frameworks in Python, Scala or Java are all good. However the problem is the tech stack becomes very think and hard to comprehend.
-	- Reality is Javascript and Mobile have advanced a lot
-
-* Reactive Technologies and Microservice Orchestration
-	 It is all about SOA, microservices and orchestration and reactive technologies!
-	 The scalability, performance and maintainability of complex application systems is HUGE!
+## Why Reactive Node.js Microservices
 
 * Why NodeJS and not Java JAX-RX 2
 	- Nothing bad 
@@ -39,8 +35,29 @@ However larger organizations do really well with current Java 7/8 standards. But
 	- End to end JS is good - you don't need to split development between "FE/Midtier/BE"
 	- NodeJS supports isomorphic React.js, so you can give performant pages
 
+* Reactive Technologies and Microservice Orchestration
+	 It is all about SOA, microservices and orchestration and reactive technologies!
+	 The scalability, performance and maintainability of complex application systems is HUGE!
+
+
+## Responsive mobile first vs Native Mobile
+
+* Responsive mobile First for Enterprise SaaS - does it work?
+	- Reality is Javascript and Mobile have advanced a lot
+	- For Enterprises the mobile fragmentation is really hard to manage
+
+
+* Why not Ruby-on-Rails ActiveRecord, MVC and Migrations?
+	- Ruby on Rails and similar MVC frameworks in Python, Scala or Java are all good. However the problem is the tech stack becomes very think and hard to comprehend.
+
+
+* Native Mobile?
+	- TODO
+
 	
-## Setup NodeJS, Mysql
+# Setup 
+
+## NodeJS, Mysql
 
 
 1. Setup Node.js, npm 
