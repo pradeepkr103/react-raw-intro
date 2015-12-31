@@ -1,4 +1,4 @@
-# EXAAMPLE 03 List of Cards using jquery json fetch from Node.js/MySQL server side
+## EXAMPLE 03 List of Cards using jquery json fetch from Node.js/MySQL server side
 
 ## We want to display
 
