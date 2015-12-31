@@ -3,7 +3,7 @@
 ## We want to display
 
 * This shows
-	![](images/03_listOfCardsWithBackendNodeJSMySQL.png)
+	![](../images/03_listOfCardsWithBackendNodeJSMySQL.png)
 
 	
 

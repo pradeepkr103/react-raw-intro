@@ -1,9 +1,9 @@
-# EXAAMPLE 02 List of Cards with Styling
+# EXAMPLE 02 List of Cards with Styling
 
 ## We want to display a list of Products 
 
 *
-	![](images/02_listcardstyled.png)
+	![](../images/02_listcardstyled.png)
 
 
 1. The HTML wrapper is the same - all the logic is in Javascript. This is one of the beauties of React.js - you can compose the application mostly architecturally in Javascript and Web components.

@@ -1,11 +1,11 @@
-# EXAAMPLE 01 hello example Notes
+# EXAMPLE 01 hello example Notes
 
 
 ## Basic Hello World example 
 
 * This example shows the following 
 
-	![](images/01_hello.png)
+	![](../images/01_hello.png)
 
 1. a. The container where React output is rendered
    b. The lib are core libraries that are in head, 
