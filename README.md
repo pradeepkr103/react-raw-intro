@@ -12,7 +12,9 @@ Next step is to see the (future todo) react-webpack-redux for examples using ful
 
 ## 01 hello example Notes
 
-![](images/01_hello.png)
+* Basic Hello World example - shows the following 
+
+	![](images/01_hello.png)
 
 1. a. The container where React output is rendered
    b. The lib are core libraries that are in head, 
