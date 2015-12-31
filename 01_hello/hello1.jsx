@@ -1,12 +1,15 @@
-var MyComponent = React.createClass({
+var App = React.createClass({
+  getInitialState: function() {
+    return {
+      date:'1/1/2015'
+    }
+  },
   render: function() {
     return (
       <div>
-        {this.props.name}
+        Hello {this.props.name} on {this.state.date}
       </div>
     );
   }
 });
-
-React.render(<MyComponent name="frodo" />, document.getElementById('container'));
-
+React.render(<App name="Pradeep" />, document.getElementById('container'));
