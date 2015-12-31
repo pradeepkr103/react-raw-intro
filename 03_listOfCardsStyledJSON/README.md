@@ -22,10 +22,9 @@ However larger organizations do really well with current Java 7/8 standards. But
 * Why Raw MySQL Queries, Not JPA 2.0, etc?
 	- Straight SQL queries are fairly simple
 	- For sophisticated developers coming from Hibernate or IOS ORM/Stores it seems a throwback to directly do queries in MySQL. Almost like PHP or Python interfacing with MySQL.
-	However, 
 	- In reality, trying to be database independent is a joke, The lifetime of apps is just not long that it merits switching DBMS, let alone trying to straddle NoSQL and SQL with one ORM.
 	- By doing queries directly, code is really a lot easier to understand
-	- 
+
 
 ## Why Reactive Node.js Microservices
 
@@ -36,8 +35,8 @@ However larger organizations do really well with current Java 7/8 standards. But
 	- NodeJS supports isomorphic React.js, so you can give performant pages
 
 * Reactive Technologies and Microservice Orchestration
-	 It is all about SOA, microservices and orchestration and reactive technologies!
-	 The scalability, performance and maintainability of complex application systems is HUGE!
+	 - It is all about SOA, microservices and orchestration and reactive technologies!
+	 - The scalability, performance and maintainability of complex application systems is HUGE!
 
 
 ## Responsive mobile first vs Native Mobile
