@@ -20,7 +20,8 @@ Next step is to see the (future todo) react-webpack-redux for examples using ful
    b. The lib are core libraries that are in head, 
    c. But the jsx for ReactJS components are put at end of body
    d. The document.getElementById('container') has to occur after the element parsed in DOM i.e. body
-
+	
+	```html
 	<!DOCTYPE html>
 	<html lang="en">
 	<head>
@@ -35,11 +36,12 @@ Next step is to see the (future todo) react-webpack-redux for examples using ful
 		<script src="hello1.jsx"  type="text/jsx"></script>
 	</body>
 	</html>
-
+	```
 
 
 2. hello1.jsx introduces basic component for an App page
 
+	```javascript
 	var App = React.createClass({
 	  getInitialState: : function() {
 	    return {
@@ -54,6 +56,7 @@ Next step is to see the (future todo) react-webpack-redux for examples using ful
 	  }
 	});
 	React.render(<App name="Pradeep" />, document.getElementById('container'));
+	```
 
 3. Web Components - attribute passed parameters
 	The core building block of React.js is to use attribute passed parameters as in following
@@ -107,11 +110,13 @@ The core is to
 
 2. Raw data - for now we hardwire the data for products ..
 
+	```javascript
 	var ps = [
 		{productId:1234,name:"Breadmaker 1234",price:"$123.45",image:"images/breadmaker1.jpg"},
 		{productId:1236,name:"Breadmaker 1235",price:"$423.45",image:"images/breadmaker2.jpg"},
 		{productId:1236,name:"Breadmaker 1236",price:"$623.45",image:"images/breadmaker3.jpg"}
 	];
+	```
 
 
 3. The Product web component 
@@ -119,6 +124,7 @@ The core is to
 	- The attributes are passed as this.props.*
 	- Usage <Product productId:p.productId, name:p.name, price:p.price, image:p.image></Product>
 
+	```javascript
 	var Product = React.createClass({
 	  render: function() {
 	    return (
@@ -130,6 +136,7 @@ The core is to
 	    );
 	  }
 	});
+	```
 
 
 
@@ -140,6 +147,7 @@ The core is to
 	       This is something a bit weird and you need to get used to.
 	- Later on the render() function simply uses this as a JS expression {ps}
 
+	```javascript
 	var App = React.createClass({
 	  displayName: 'App',
 	  getInitialState: function() {
@@ -162,6 +170,7 @@ The core is to
 	    );
 	  }
 	});
+	```
 
 
 
@@ -171,6 +180,7 @@ The core is to
 	- The properties all have to be in quotes e.g. '5px'
 	- In each use of the style refer it as ..
 
+	```javascript
 	<div style= {styProductBox} >
 
 	var styProductBox = {
@@ -181,6 +191,7 @@ The core is to
 	  padding: '10px',
 	  borderRadius: '5px'
 	}
+	```
 
 
 
