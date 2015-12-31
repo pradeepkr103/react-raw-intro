@@ -11,8 +11,8 @@ This repo has examples of increasing difficulty that don't require any build too
 Next step is to see the (future todo) react-webpack-redux for examples using full toolchain.
 
 
-* [Ex 01_hello](01_hello/READE.md)
-* [Ex 02_listOfCardsStyled](02_listOfCardsStyled/READE.md)
-* [Ex 03_listOfCardsStyledJSON](03_listOfCardsStyledJSON/READE.md)
+* [Ex 01_hello](01_hello/README.md)
+* [Ex 02_listOfCardsStyled](02_listOfCardsStyled/README.md)
+* [Ex 03_listOfCardsStyledJSON](03_listOfCardsStyledJSON/README.md)
 
 
