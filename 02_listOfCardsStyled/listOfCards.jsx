@@ -32,6 +32,7 @@ var Product = React.createClass({
         <img src={this.props.image} style={styProductImage}  />
         <p style={styProductTitle} >{this.props.name} {this.props.productId}</p>
         <p style={styProductPrice} >{this.props.price}</p>
+        <button onClick={this.props.onClick}>Buy</button>
       </div>
     );
   }
@@ -46,18 +47,29 @@ var App = React.createClass({
     }
   },
   render: function() {
-	var pl = this.state.ps.map(function(p) {
-		console.log(p);
-    	 return(<Product productId={ps[0].productId} name={p.name} price={p.price} image={p.image} >
-    	 	    </Product>);
-	});
-    return (
-      <div>
-      	<p>Product List</p>
-      	{pl}
-      </div>
-    );
+    var that = this;
+  	var pl = this.state.ps.map(function(p) {
+  		console.log(p);
+      	 return(<Product productId={ps[0].productId} name={p.name} price={p.price} image={p.image} 
+                onClick={that.buyItem.bind(null, p)}  >
+      	 	    </Product>);
+  	});
+      return (
+        <div>
+        	<input style={stySearchBox} type=text /> <button onClick={this.props.onClick}>Search</button>
+        	{pl}
+        </div>
+      );
   }
+  buyItem: function(product) {
+    alert("Adding to card "+product.name);
+  }
+  /****
+  deletePerson: function (person) {
+      this.state.people.splice(this.state.people.indexOf(person), 1);
+      this.setState({people: this.state.people});
+  }
+  ***/
 });
 
 React.render(<App />, document.getElementById('container'));

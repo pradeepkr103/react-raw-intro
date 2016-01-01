@@ -28,6 +28,8 @@ However larger organizations do really well with current Java 7/8 standards. But
 
 ## Why Reactive Node.js Microservices
 
+TODO
+
 * Why NodeJS and not Java JAX-RX 2
 	- Nothing bad 
 	- MySQL works well with NodeJS and dev cycles are very fast
@@ -37,21 +39,6 @@ However larger organizations do really well with current Java 7/8 standards. But
 * Reactive Technologies and Microservice Orchestration
 	 - It is all about SOA, microservices and orchestration and reactive technologies!
 	 - The scalability, performance and maintainability of complex application systems is HUGE!
-
-
-## Responsive mobile first vs Native Mobile
-
-* Responsive mobile First for Enterprise SaaS - does it work?
-	- Reality is Javascript and Mobile have advanced a lot
-	- For Enterprises the mobile fragmentation is really hard to manage
-
-
-* Why not Ruby-on-Rails ActiveRecord, MVC and Migrations?
-	- Ruby on Rails and similar MVC frameworks in Python, Scala or Java are all good. However the problem is the tech stack becomes very think and hard to comprehend.
-
-
-* Native Mobile?
-	- TODO
 
 	
 # Setup 
